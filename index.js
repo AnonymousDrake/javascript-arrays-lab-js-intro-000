@@ -9,7 +9,7 @@ var destructivelyPrependKitten=(kittens,name) =>{
 }
 var appendKitten = (kittens,name) =>{
   return kittens=[...kittens, name];
-} 
+}
 var prependKitten = (kittens,name)=>{
   return (kittens=[name,...kittens];)
 }
