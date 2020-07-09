@@ -1,4 +1,4 @@
 var kittens = ["Milo", "Otis", "Garfield"];
-var destructivelyAppendKitten = name =>{
-  name.shift(name);
+var destructivelyAppendKitten = (array,name) =>{
+  array.shift(name);
 }
