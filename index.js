@@ -1,15 +1,15 @@
 var kittens = ["Milo", "Otis", "Garfield"];
-var destructivelyAppendKitten = (kittens,name) =>{
+var destructivelyAppendKitten = name =>{
   kittens.push(name);
   return kittens;
 }
-var destructivelyPrependKitten=(kittens,name) =>{
+var destructivelyPrependKitten= name =>{
   kittens.unshift(name);
   return kittens;
 }
-var appendKitten = (kittens,name) =>{
-  return kittens=[...kittens, name];
+var appendKitten = name =>{
+  return (kittens=[...kittens, name]);
 }
-var prependKitten = (kittens,name)=>{
-  return (kittens=[name,...kittens];)
+var prependKitten = name=>{
+  return (kittens=[name,...kittens]);
 }
