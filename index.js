@@ -24,6 +24,10 @@ var destructivelyRemoveFirstKitten= () =>{
   return kittens;
 }
 var removeLastKitten= () =>{
-  var kittens1.slice(0, kittens.length -1);
+  var kittens1 = kittens.slice(0, kittens.length -1);
   return kittens1;
+}
+var removeFirstKitten= () =>{
+  var kittens1= kittens.slice(1);
+  return  kittens1;
 }
