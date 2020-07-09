@@ -8,8 +8,8 @@ var destructivelyPrependKitten= name =>{
   return kittens;
 }
 var appendKitten = name =>{
-  return (kittens=[...kittens, name]);
+  return (var kittens1=[...kittens, name]);
 }
 var prependKitten = name=>{
-  return (kittens=[name,...kittens]);
+  return (var kittens1=[name,...kittens]);
 }
