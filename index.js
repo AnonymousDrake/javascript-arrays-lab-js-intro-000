@@ -9,7 +9,7 @@ var destructivelyPrependKitten= name =>{
 }
 var appendKitten = name =>{
   var kittens1=[...kittens, name];
-  return kittens1;  
+  return kittens1;
 }
 var prependKitten = name=>{
    var kittens1=[name,...kittens];
