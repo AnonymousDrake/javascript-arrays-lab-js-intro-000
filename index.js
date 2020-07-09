@@ -15,3 +15,7 @@ var prependKitten = name=>{
    var kittens1=[name,...kittens];
    return kittens1;
 }
+var destructivelyRemoveLastKitten= () => {
+  kittens.pop();
+  return kittens;
+}
